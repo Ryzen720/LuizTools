@@ -4,11 +4,14 @@
     font-weight: 400;
     font-style: normal
 }
-.border-vew{
-    border-radius:sol;
-    
-}
 
+@font-face {
+    font-family: termina demi;
+    src: url(https://uploads-ssl.webflow.com/5e3560ac9615a2309b6fb86c/5ea824d5d7d95e313db4e569_Termina-Demi.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto
+}
 
 body{
     background: rgb(113,20,15);
@@ -21,18 +24,67 @@ body{
 }
 
 .logo{
-    width: 40%;
+    width: 20%;
 }
-h1{
+#h1-main{
     color: white;
-    font-size: 40px;
-    font-weight: 400
+    font-size: 5vw;
+    
+    
 }
 h3{
     color: #F29459;
-    font-size: x-large;
+    font-size: 20px;
 }
 
+.btn-color{
+    background-color: #d93600;
+    border-color: #d93600;
+}
+
+#nano-text{
+    
+    text-justify:distribute;
+    color: #ff9659;
+    font-size: 20px;
+    
+}
+
+#text-cnt3{
+    color: #d73802;
+    font-family: work-sans,sans-serif;
+
+
+}
+#text-cnt3-1{
+    max-width: 756px;
+    color: white;
+}
+#text-cnt3-2{
+   font-size: 20px;
+   
+}
+
+.main-box{
+    background-color: #181628;
+    border-radius: 5px;
+    height: 20vw;
+}
+
+.bola{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2B2B2B;
+}
+.main-box-title{
+    color: white;
+    font-size: 30px;
+}
+.main-box-text{
+    color: #ff9659;
+    font-size: 15px;
+}
 
 
 
