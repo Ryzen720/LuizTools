@@ -71,12 +71,12 @@ h3{
     height: 20vw;
 }
 
-.bola{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #2B2B2B;
+.main-box-img{
+    width: 8vw;
+    margin-top: 10px;
+   
 }
+
 .main-box-title{
     color: white;
     font-size: 30px;
