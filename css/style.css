@@ -30,7 +30,7 @@ body{
 .navbar-nav .nav-item .nav-link{
     font-weight: bold;
 }
-#h1-main{
+.h1-main{
     color: white;
     font-size: 4.3vw;
     font-family: termina demi;
@@ -57,6 +57,11 @@ h3{
     outline: none !important;
     box-shadow: none !important;
 }
+iframe{
+
+}
+
+
 #nano-text{
     text-justify:distribute;
     color: #ff9659;
@@ -87,6 +92,17 @@ h3{
     .main-box-img{
         width: 10vw;
         
+    }
+    iframe{
+        width: 94vw;
+        height: 30vh;
+        
+    }
+    .logo{
+    width: 40%;
+    }
+    .h1-main{
+        font-size: 9.3vw;
     }
 }
 .main-box-img{
