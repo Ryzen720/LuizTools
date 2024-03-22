@@ -41,7 +41,10 @@ h3{
     background-color: #d93600;
     border-color: #d93600;
 }
+::hover btn{
+    color: transparentk;
 
+}
 #nano-text{
     
     text-justify:distribute;
@@ -65,10 +68,21 @@ h3{
    
 }
 
-.main-box{
+.card{
     background-color: #181628;
     border-radius: 5px;
     height: 20vw;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 620px){
+    .card{
+        height: 50vw;
+        margin-top: 1rem;
+    }
+    .main-box-img{
+        width: 10vw;
+        
+    }
 }
 
 .main-box-img{
